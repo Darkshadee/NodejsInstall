@@ -14,9 +14,7 @@ else
 
     if  curl --output /dev/null --silent --head --fail "$url"; then
     
-        # Node="https://nodejs.org/dist/v12.18.2/node-v12.18.2-linux-x64.tar.xz"
         i=`echo $url | awk -F '/' '{print $6}'`
-        # echo $i
         curl -o $i $url
         tar -C /usr/local --strip-components 1 -xf $i
         npm install -g npm@latest

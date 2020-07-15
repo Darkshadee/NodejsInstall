@@ -10,6 +10,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d11483a0cc5c4ebd9da4ff9f7cd56690)](https://www.codacy.com/app/curl/curl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=curl/curl&amp;utm_campaign=Badge_Grade)
 [![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/curl.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:curl)
 
+
 Install Nodejs Using URL
 
 # Getting Started
@@ -39,6 +40,6 @@ Past URL to Install : < Past URL there >
 
 # Sample Example
 
-For Your Reference
+For Your Reference.
 
 <img src="https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif" width="625" height="400" />
