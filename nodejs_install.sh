@@ -16,7 +16,6 @@ else
                 
             if [ "$u" = linux-x64 ]
             then
-                echo "OK"
 
                 i=`echo $url | sed 's|.*/||'` 
                 z=`echo $url | sed 's|.*tar.||'`
