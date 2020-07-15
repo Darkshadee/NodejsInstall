@@ -42,4 +42,17 @@ Past URL to Install : < Past URL there >
 
 For Your Reference.
 
-<img src="https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif" width="625" height="400" />
+<img src="http://g.recordit.co/3loZeIQKIq.gif" width="625" height="400" />
+
+## Note
+
+* This script will support only for **Nodejs** URL
+* No need to install **Npm** seprately
+* While install **Nodejs** using this script **Npm** will automatically install or update to latest version
+
+
+## Thank You !!!
+
+
+
+
