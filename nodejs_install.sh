@@ -12,7 +12,7 @@ else
 
     if  curl --output /dev/null --silent --head --fail "$url"; then
     
-        i=`echo $url | awk -F '/' '{print $6}'`
+        i=`echo $url | sed 's|.*/||'`
         curl -o $i $url
         tar -C /usr/local --strip-components 1 -xf $i
         npm install -g npm@latest
