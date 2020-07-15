@@ -15,7 +15,7 @@ read -p "Past URL to Install : " pac
 # Node="https://nodejs.org/dist/v12.18.2/node-v12.18.2-linux-x64.tar.xz"
 i=`echo $pac | awk -F '/' '{print $6}'`
 # echo $i
-# curl -o $i $pac
+curl -o $i $pac
 tar -C /usr/local --strip-components 1 -xf $i
 npm install -g npm@latest
 
