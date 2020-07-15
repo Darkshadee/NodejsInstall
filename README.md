@@ -47,8 +47,8 @@ For Your Reference.
 ## Note
 
 * This script will support only for **Nodejs** URL
-* No need to install **Npm** seprately
-* While install **Nodejs** using this script **Npm** will automatically install or update to latest version
+* No need to install or update **Npm** seprately
+* While install **Nodejs** using this script, **Npm** will automatically install or update to latest version
 
 
 ## Thank You !!!
