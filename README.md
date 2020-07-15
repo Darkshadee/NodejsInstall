@@ -38,5 +38,4 @@ Past URL to Install : < Past URL there >
 ```
 
 # Example
-<iframe src="https://giphy.com/embed/YrkwbOCkgMvr1Ku4jS" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/YrkwbOCkgMvr1Ku4jS">via GIPHY</a></p>
-
+![Alt Text](https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif)
