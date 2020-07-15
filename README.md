@@ -41,4 +41,4 @@ Past URL to Install : < Past URL there >
 
 For Your Reference
 
-<img src="https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif" width="700" height="500" />
+<img src="https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif" width="600" height="400" />
