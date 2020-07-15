@@ -38,5 +38,4 @@ Past URL to Install : < Past URL there >
 ```
 
 # Example
-![Alt Text](https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif)
-<img src="https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/YrkwbOCkgMvr1Ku4jS/giphy.gif" width="100" height="100" />
