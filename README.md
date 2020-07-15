@@ -20,18 +20,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 Follow this instructions to install nodejs using url
 
-## Step 1
+### Step 1
 
 ```
 git clone https://github.com/Darkshadee/NodejsInstall.git && cd NodejsInstall
 ```
-## Step 2
+### Step 2
 
 ```
 sudo sh nodejs_install.sh
 ```
 
-## Step 3
+### Step 3
 
 ```
 Past URL to Install : < Past URL there >
