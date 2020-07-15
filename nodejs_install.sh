@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-
 ins(){
     clear
 if [ `whoami` != root ]; then
@@ -35,5 +33,3 @@ fi
 }    
 
 ins
-
-# 
