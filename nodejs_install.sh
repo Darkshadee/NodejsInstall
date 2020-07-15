@@ -10,20 +10,28 @@ if [ `whoami` != root ]; then
         exit
 else    
 
-read -p "Past URL to Install : " pac
+    read -p "Past URL to Install : " url
 
-# Node="https://nodejs.org/dist/v12.18.2/node-v12.18.2-linux-x64.tar.xz"
-i=`echo $pac | awk -F '/' '{print $6}'`
-# echo $i
-curl -o $i $pac
-tar -C /usr/local --strip-components 1 -xf $i
-npm install -g npm@latest
+    if  curl --output /dev/null --silent --head --fail "$url"; then
+    
+        # Node="https://nodejs.org/dist/v12.18.2/node-v12.18.2-linux-x64.tar.xz"
+        i=`echo $url | awk -F '/' '{print $6}'`
+        # echo $i
+        curl -o $i $url
+        tar -C /usr/local --strip-components 1 -xf $i
+        npm install -g npm@latest
 
-NODE_VER=$(node -v)
-NPM_VER=$(npm -v)
+        NODE_VER=$(node -v)
+        NPM_VER=$(npm -v)
 
-echo -ne " Nodejs" "\033[0;32m$NODE_VER\033[0m" "Installed Sucessfully"
-echo -ne " Npm" "\033[0;32m$NPM_VER\033[0m" "Installed Sucessfully"
+        echo -ne " Nodejs" "\033[0;32m$NODE_VER\033[0m" "Installed Sucessfully"
+        echo -ne " Npm" "\033[0;32m$NPM_VER\033[0m" "Installed Sucessfully"
+
+    else
+        echo ""
+        echo -ne "\033[0;31mInvalid URL, Retry Again\033[0m"
+        echo ""
+    fi 
 
 fi    
 }    
