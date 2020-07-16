@@ -11,7 +11,7 @@
 [![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/curl.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:curl)
 
 
-Install Nodejs Using URL
+## Install Nodejs Using URL
 
 # Getting Started
 
