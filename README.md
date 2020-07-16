@@ -42,6 +42,8 @@ Past URL to Install : < Past URL there >
 
 For Your Reference.
 
+![Recordit GIF](http://g.recordit.co/3loZeIQKIq.gif)
+
 <img src="http://g.recordit.co/3loZeIQKIq.gif" width="625" height="350" />
 
 ## Note
