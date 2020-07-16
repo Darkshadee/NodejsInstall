@@ -44,12 +44,11 @@ For Your Reference.
 
 ![Recordit GIF](http://g.recordit.co/3loZeIQKIq.gif)
 
-<img src="http://g.recordit.co/3loZeIQKIq.gif" width="625" height="350" />
 
 ## Note
 
 * This script will support only for **Nodejs** URL
-* No need to install or update **Npm** seprately
+* No need to installing or update **Npm** separately
 * While install **Nodejs** using this script, **Npm** will automatically install or update to latest version
 
 
